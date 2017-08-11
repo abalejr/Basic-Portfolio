@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500|Walter+Turncoat');
+
+body {
+    background: url("../images/vertical-waves.png") #F4F4F4;
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Walter Turncoat', cursive;
+}
+h1 {
+    font-size: 30px;
+}
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #FFF;
+}
