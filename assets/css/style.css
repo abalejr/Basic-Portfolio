@@ -72,10 +72,14 @@ nav {
 main {
     display: inline-block;
     margin: 4vh 0 8vh 12vw;
+    float: left;
+}
+section {
+    display: inline-block;
+    margin-bottom: 8vh;
     width: 40vw;
     background-color: #FFF;
     padding: 0 4vw 4vw 4vw;
-    float: left;
 }
 .title {
     margin: 4vw 0 2vw 0;
@@ -136,26 +140,26 @@ footer {
     color: #C4C4C4;
 
 }
-#contact tr,
-#contact td {
+form.contact tr,
+form.contact td {
     padding: 1vh 1vw 1vh 1vw;
     vertical-align: middle;
 }
-#contact .entry input,
-#contact .entry textarea {
+form.contact .entry input,
+form.contact .entry textarea {
     padding: .5vh .5vw .5vh .5vw;
     font-family: inherit;
 }
-#contact tr,
-#contact .entry,
-#contact .entry input,
-#contact .entry textarea {
+form.contact tr,
+form.contact .entry,
+form.contact .entry input,
+form.contact .entry textarea {
     width: 100%;
 }
-#contact label {
+form.contact label {
     font-size: 2vh;
 }
 
-main, aside {
+section, aside {
     box-shadow: .1vw .2vw .05vw rgba(35, 28, 35, .4);
 }
