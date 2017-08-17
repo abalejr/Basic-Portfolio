@@ -71,7 +71,7 @@ nav {
 }
 main {
     display: inline-block;
-    margin: 4vh 0 8vh 12vw;
+    margin: 4vh 0 0 12vw;
     float: left;
 }
 section {
@@ -144,6 +144,10 @@ form.contact tr,
 form.contact td {
     padding: 1vh 1vw 1vh 1vw;
     vertical-align: middle;
+}
+form.contact td:first-child {
+    padding-right: 0;
+    text-align: right;
 }
 form.contact .entry input,
 form.contact .entry textarea {
