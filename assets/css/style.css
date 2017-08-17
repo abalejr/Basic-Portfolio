@@ -136,6 +136,26 @@ footer {
     color: #C4C4C4;
 
 }
+#contact tr,
+#contact td {
+    padding: 1vh 1vw 1vh 1vw;
+    vertical-align: middle;
+}
+#contact .entry input,
+#contact .entry textarea {
+    padding: .5vh .5vw .5vh .5vw;
+    font-family: inherit;
+}
+#contact tr,
+#contact .entry,
+#contact .entry input,
+#contact .entry textarea {
+    width: 100%;
+}
+#contact label {
+    font-size: 2vh;
+}
+
 main, aside {
     box-shadow: .1vw .2vw .05vw rgba(35, 28, 35, .4);
 }
