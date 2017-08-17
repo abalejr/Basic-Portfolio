@@ -159,7 +159,16 @@ form.contact .entry textarea {
 form.contact label {
     font-size: 2vh;
 }
-
+button {
+    padding: 1.5vh 1.25vw 1.5vh 1.25vw;
+    background: linear-gradient(#E0B60D, #91612a);
+    border: none;
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: bold;
+    text-shadow: 1px 1px #231C23;
+    letter-spacing: .05vw;
+}
 section, aside {
     box-shadow: .1vw .2vw .05vw rgba(35, 28, 35, .4);
 }
